@@ -30,7 +30,7 @@ plt.ylabel('X2 feature')
 plt.scatter(X[:, 0], X[:, 1], c=y, cmap=cmap, edgecolors='k', s=20) ##plotting only 2 of the 4 features for a 2D case (helps visualization)
 plt.show()
 
-from KNN_scratch_implementation import KNN ## imports the KNN class from the KNN_scratch_implementation (same folder)
+from ML_algorithms_scratch_implementation import KNN ## imports the KNN class from the KNN_scratch_implementation (same folder)
 
 clf = KNN(k=5)
 clf.fit(X_train, y_train)
